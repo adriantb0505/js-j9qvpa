@@ -1,0 +1,20 @@
+.game-container {
+  width: 300px;
+  margin: 0 auto;
+}
+
+.tic-tac-toe-grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 300px;
+  height: 300px;
+  border: 2px solid black;
+}
+
+.tic-tac-toe-cell {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  text-align: center;
+  font-size: 50px;
+}
